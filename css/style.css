@@ -1,0 +1,31 @@
+@charset "UTF-8";
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* 共通部分 */
+
+html {
+    /* 主要なブラウザのデフォルトフォントサイズは16pxなので一旦それをhtml全体に指定する */
+    font-size: 62.5%;
+}
+body{
+
+    width: 1024px;
+    max-width: 100%;
+    margin: 0 auto;
+    font-size: 1.6rem;
+    font-family:sans-serif;
+    line-height: 1.7;
+    color: #432;
+}
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+a {
+    text-decoration: none;
+}
+img {
+    max-width: 100%;
+}
