@@ -408,6 +408,8 @@ footer {
     min-width: 200px;
     border-radius: 3px;
     transition: all .5s;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0) 50%, #f7f7f7 50%);
+    background-size: 200% auto;
 }
 .odd-view-more-button {
     display: block;
@@ -422,14 +424,18 @@ footer {
     min-width: 200px;
     border-radius: 3px;
     transition: all .5s;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0) 50%, #f7f7f7 50%);
+    background-size: 200% auto;
 }
 .view-more-button:hover {
     background-color: #f7f7f7;
     color: #262626;
+    background-position: -100% 0;
 }
 .odd-view-more-button:hover {
     background-color:#f7f7f7;
     color: #452f62;
+    background-position: -100% 0;
 }
 .top-news-article {
     display: block;
