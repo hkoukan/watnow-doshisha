@@ -3,12 +3,14 @@
 {
     $('.menu').on('click', function () {
         $('.menu_line').toggleClass('active');
-        document.querySelector('.gnav').classList.toggle("open")
+        $('.gnav').toggleClass('open');
+        $('.smart-header').toggleClass('smart-header-opacity');
     });
 
     $('.gnav_menu_item a').on('click', function () {
         $('.menu_line').toggleClass('active');
-        document.querySelector('.gnav').classList.toggle("open")
+        $('.gnav').toggleClass('open');
+        $('.smart-header').toggleClass('smart-header-opacity');
     })
 
     jQuery(function ($) {
