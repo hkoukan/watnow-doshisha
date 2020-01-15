@@ -19,8 +19,9 @@ body {
     font-weight: 400;
     font-style: normal;;
     line-height: 1.7;
-    color: #452f62;
+    color: #262626;
     background-color: #f7f7f7;
+    /* background-color: #262626; */
 }
 
 ::selection {
@@ -86,7 +87,7 @@ h6 {
     position: fixed;
     top: 0;
     left: 0;
-    background-color: #262626;
+    background-color: #f7f7f7;
     /* background: linear-gradient(#262626, transparent); */
 }
 .smart-logo {
@@ -103,7 +104,7 @@ h6 {
     z-index: 99;
 }
 .menu_line {
-    background: #fff;
+    background: #262626;
     display: block;
     height: 2px;
     position: absolute;
@@ -190,11 +191,15 @@ h6 {
     position: fixed;
     top: 0;
     left: 0;
-    background: linear-gradient(#262626, rgba(38,38,38,.8));
+    /* background: linear-gradient(#262626, rgba(38,38,38,.8)); */
+    background: #f7f7f7;
     z-index: 10000000;
 }
 .header-title a {
-    color: #f7f7f7;
+    color: #262626;
+}
+.header-title-img {
+    height: 50px;
 }
 .logo {
     width: 180px;
@@ -211,7 +216,7 @@ h6 {
 .main-nav a {
     position: relative;
     display: inline-block;
-    color: #f7f7f7;
+    color: #262626;
     transition: all 0.5s
 }
 .main-nav a::after {
@@ -221,7 +226,7 @@ h6 {
     content: '';
     width: 100%;
     height: 2px;
-    background: #f7f7f7;
+    background: #262626;
     transform: scale(0, 1);
     transform-origin: center top;
     transition: transform .3s;
