@@ -3,12 +3,13 @@
 {
     $('.menu').on('click', function () {
         $('.menu_line').toggleClass('active');
-        $('.gnav').fadeToggle();
+        document.querySelector('.gnav').classList.toggle("open")
+
     });
 
     $('.gnav_menu_item a').on('click', function () {
         $('.menu_line').toggleClass('active');
-        $('.gnav').fadeToggle();
+        document.querySelector('.gnav').classList.toggle("open")
     })
 
     jQuery(function ($) {

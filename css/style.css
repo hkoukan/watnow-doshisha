@@ -17,13 +17,13 @@ body {
     font-size: 1.6rem;
     font-family: sans-serif;
     line-height: 1.7;
-    color: #262626;
+    color: #452f62;
     background-color: #f7f7f7;
 }
 
 ::selection {
     background: yellow;
-    color: #262626;
+    color: #452f62;
 }
 
 .wrapper {
@@ -134,11 +134,20 @@ h6 {
 /* ハンバーガーの中身 */
 .gnav {
     background: rgba(0, 0, 0, 0.8);
-    display: none;
+    /* display: none; */
     height: 100%;
     position: fixed;
     width: 100%;
     z-index: 10;
+    clip-path: circle(50px at 90% -10%);
+    -webkit-clip-path: circle(50px at 90% -10%);
+    transition: all 1s ease-out;
+}
+
+.gnav.open{
+    clip-path: circle(1300px at 90% -10%);
+    -webkit-clip-path: circle(1300px at 90% -10%);
+    transition: all 1s ease-out;
 }
 
 .gnav_wrap {
@@ -166,7 +175,7 @@ h6 {
 }
 
 .gnav_menu_item a:hover {
-    color: #262626;
+    color: #452f62;;
 }
 
 /* ヘッダー */
@@ -179,7 +188,6 @@ h6 {
     position: fixed;
     top: 0;
     left: 0;
-    /* background-color: #262626; */
     background: linear-gradient(#262626, rgba(38,38,38,.8));
     z-index: 10000000;
 }
@@ -274,7 +282,7 @@ footer {
 .sns {
     width: 70px;
     height: 70px;
-    color: #262626;
+    color: #452f62;
     margin: 20px;
     padding: 20px;
     border-radius: 50%;
@@ -366,7 +374,7 @@ footer {
     margin: 0 auto;
     padding-top: 70px;
     padding-bottom: 70px;
-    color:#262626;
+    color: #452f62;
 }
 .top-section-title {
     text-align: center;
@@ -386,6 +394,7 @@ footer {
     margin: 30px;
     text-align: center;
     line-height: 2;
+    color: #262626;
 }
 .view-more-button {
     display: block;
@@ -399,12 +408,15 @@ footer {
     min-width: 200px;
     border-radius: 3px;
     transition: all .5s;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0) 50%, #f7f7f7 50%);
+    background-size: 200% auto;
 }
 .odd-view-more-button {
     display: block;
     text-align: center;
-    color: #262626;
-    border: 1px solid #262626;
+    color: #f7f7f7;
+    background:#452f62;
+    border: 1px solid #452f62;
     padding: 10px;
     font-size: 2rem;
     margin: auto;
@@ -412,14 +424,18 @@ footer {
     min-width: 200px;
     border-radius: 3px;
     transition: all .5s;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0) 50%, #f7f7f7 50%);
+    background-size: 200% auto;
 }
 .view-more-button:hover {
     background-color: #f7f7f7;
     color: #262626;
+    background-position: -100% 0;
 }
 .odd-view-more-button:hover {
-    background-color: #262626;
-    color: #f7f7f7;
+    background-color:#f7f7f7;
+    color: #452f62;
+    background-position: -100% 0;
 }
 .top-news-article {
     display: block;
