@@ -4,7 +4,6 @@
     $('.menu').on('click', function () {
         $('.menu_line').toggleClass('active');
         document.querySelector('.gnav').classList.toggle("open")
-
     });
 
     $('.gnav_menu_item a').on('click', function () {
