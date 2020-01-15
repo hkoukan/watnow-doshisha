@@ -137,19 +137,16 @@ h6 {
 /* ハンバーガーの中身 */
 .gnav {
     background: rgba(0, 0, 0, 0.8);
-    /* display: none; */
     height: 100%;
     position: fixed;
     width: 100%;
     z-index: 10;
     clip-path: circle(50px at 90% -10%);
-    /* -webkit-clip-path: circle(50px at 90% -10%); */
     transition: all .5s ease-out;
 }
 
 .gnav.open{
     clip-path: circle(1300px at 90% -10%);
-    /* -webkit-clip-path: circle(1300px at 90% -10%); */
     transition: all .5s ease-out;
 }
 
