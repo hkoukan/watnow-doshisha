@@ -153,38 +153,46 @@ h6 {
     clip-path: circle(50px at 90% -10%);
     transition: all .5s ease-out;
 }
-
 .gnav.open{
     clip-path: circle(1300px at 90% -10%);
     transition: all .5s ease-out;
 }
-
 .gnav_wrap {
     align-items: center;
     display: flex;
     height: 100%;
-    justify-content: center;
-    position: absolute;
     width: 100%;
+    justify-content: center;
 }
-
 .gnav_menu_item {
     margin: 40px 0;
-    text-align: center;
 }
-
+.first {
+    transform: translateX(300px);
+    transition: all .2s ease-out;
+}
+.second {
+    transform: translateX(500px);
+    transition: all .3s ease-out;
+}
+.third {
+    transform: translateX(700px);
+    transition: all .4s ease-out;
+}
+.fourth {
+    transform: translateX(900px);
+    transition: all .5s ease-out;
+}
+.gnav_menu_item_open {
+    transform: translateX(0);
+}
 .gnav_menu_item a {
     color: #262626;
     font-size: 2em;
     font-weight: bold;
-    padding: 40px;
-    text-decoration: none;
+    /* padding: 40px; */
     transition: .5s;
     z-index: 100;
-}
-
-.gnav_menu_item a:hover {
-    color: #452f62;;
 }
 
 /* ヘッダー */
