@@ -4,12 +4,14 @@
     $('.menu').on('click', function () {
         $('.menu_line').toggleClass('active');
         $('.gnav').toggleClass('open');
+        $('.gnav_menu_item').toggleClass('gnav_menu_item_open');
         $('.smart-header').toggleClass('smart-header-opacity');
     });
 
     $('.gnav_menu_item a').on('click', function () {
         $('.menu_line').toggleClass('active');
         $('.gnav').toggleClass('open');
+        $('.gnav_menu_item').toggleClass('gnav_menu_item_open');
         $('.smart-header').toggleClass('smart-header-opacity');
     })
 
