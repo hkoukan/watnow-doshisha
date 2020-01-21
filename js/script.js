@@ -17,7 +17,7 @@
 
     jQuery(function ($) {
         $('.fixed-bg').bgSwitcher({
-            images: ['photo1.jpg', 'photo2.jpg', 'photo3.jpg', 'photo4.jpg'], // 切替背景画像を指定
+            images: ['photo3.jpg', 'photo4.jpg', 'photo5.jpg', 'photo6.jpg', 'photo7.jpg'], // 切替背景画像を指定
             interval: 5500, // 背景画像を切り替える間隔を指定 3000=3秒
             loop: true, // 切り替えを繰り返すか指定 true=繰り返す　false=繰り返さない
             shuffle: false, // 背景画像の順番をシャッフルするか指定 true=する　false=しない
