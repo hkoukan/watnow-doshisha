@@ -790,8 +790,12 @@ input[type="submit"]:hover {
     .page-header {
         display: none;
     }
-    .front-title {
-        top: 30%;
+    .front-title1 {
+        top: 45%;
+        left: 1%;
+    }
+    .front-title2 {
+        left: 1%;
     }
     /* .indent {
         display: block;
