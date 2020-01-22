@@ -569,6 +569,7 @@ textarea {
     border: 1px solid #262626;
     border-radius: 5px;
     transition: all .5s;
+    color:black;
 }
 input[type="submit"]:hover {
     background-color: #262626;
