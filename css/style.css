@@ -25,8 +25,8 @@ body {
 }
 
 ::selection {
-    background: yellow;
-    color: #452f62;
+    background: #452f62;
+    color: #f7f7f7;
 }
 
 .wrapper {
@@ -424,6 +424,9 @@ footer {
     text-align: center;
     line-height: 2;
     color: #262626;
+}
+.news-description {
+    color: #f7f7f7;
 }
 .view-more-button {
     display: block;
