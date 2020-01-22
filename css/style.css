@@ -270,7 +270,7 @@ a:hover::after {
 
 .front-title1 {
     position: absolute;
-    top: 50%;
+    top: 45%;
     left: 10%;
     color: #f7f7f7;
     font-family: futura-pt,sans-serif;
@@ -337,7 +337,7 @@ footer {
     z-index: -1;
 }
 .scroll span {
-    position: fixed;
+    position: absolute;
     top: 90vh;
     left: 50%;
     width: 24px;
