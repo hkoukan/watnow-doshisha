@@ -337,7 +337,7 @@ footer {
     z-index: -1;
 }
 .scroll span {
-    position: fixed;
+    position: absolute;
     top: 90vh;
     left: 50%;
     width: 24px;
