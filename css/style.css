@@ -860,3 +860,9 @@ input[type="submit"]:hover {
         margin: 0;
     }
 }
+
+.watnow-poli {
+    margin-top: -30px;
+    padding-left: 4%;
+    white-space: nowrap
+}
